@@ -18,6 +18,7 @@ for submission in reddit.subreddit('all').rising(limit=100):
                 continue
             if (sub2.score > prevhigh):
                 highpost = sub2
+            prevhigh = sub2.score
         if (highpost != 0):
             print(" - HIGH POST: "+highpost.id)
             print("    - SCORE: "+str(highpost.score))
