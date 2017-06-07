@@ -1,4 +1,4 @@
-#Rising-Repost
+# Rising-Repost
 
 Many of us have heard of the website reddit, and many of us use it on an everyday basis.
 
